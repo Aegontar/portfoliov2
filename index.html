@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <title>Document</title>
+</head>
+
+<body onresize="myFunction3()">
+
+    <div id="page-container">
+        <!-- side bar -->
+        <div id="side-bar">
+
+            <div id="me">
+                <div id="profile-pic">
+                    <img src="img/kitty.jpg" alt="">
+                </div>
+                <div id="name">
+                    <h1>Charles Dessa</h1>
+                    <h2>Web Developer</h2>
+                </div>
+                <!-- hamburger menu -->
+                <div id='hamburger'>
+                    <div id="social-media2">
+                        <a href=""> <i class="fab fa-twitter-square icon"> </i> </a>
+                        <a href=""><i class="fas fa-envelope-square icon"></i> </a>
+                        <a href=""> <i class="fab fa-github icon"></i> </a>
+                        <a href=""> <i class="fab fa-linkedin-in icon"></i> </a>
+                    </div>
+                    <div id="button">
+                        <i class="fa fa-bars" onclick="changeCss()"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div id="nav-bar">
+                <a href="index.html">Portfolio</a>
+                <a href=""> My services </a>
+                <a href="contact.html"> Contact me </a>
+                <a href="">My CV </a>
+            </div>
+            <div id="social-media"> <i class="fab fa-twitter-square icon"></i> <i
+                    class="fas fa-envelope-square icon"></i> <i class="fab fa-github icon"></i> <i
+                    class="fab fa-linkedin-in icon"></i> </div>
+
+
+            <!-- nav bar only for phone -->
+
+            <div id="nav-2">
+                <a href="index.html">Portfolio</a>
+                <a href=""> My services </a>
+                <a href="contact.html"> Contact me </a>
+                <a href="">My CV </a>
+            </div>
+
+        </div>
+
+
+        <!-- content area -->
+        <div id="content">
+
+            <div class="projects">
+            <!--     if the description is small the time-line div will take up more space -->
+                <div class="time-line">
+                    <p class="date">10/21/2020</p>
+                </div>
+                <div class="project-container">
+                    <div class="project-description">
+                       <h1>knowledge Portal</h1>
+                       <p>knowledge portal is a platform where you get to read books and research papers online without 
+                          having to download anything</p>
+                          <div id="technologies">
+                            <ul>
+                              <li><a>Ruby on rails</a></li>
+                              <li><a>React</a></li>
+                              <li><a>Redux</a></li>
+                              <li><a>Elestic Search</a></li>
+                              <li><a>Redis</a></li>
+                              <li><a>Ansible</a></li>  
+                           </ul>
+                           </div>
+    
+                    </div>
+                    <div class="project-link">
+                        <a href="https://www.w3schools.com">
+                        <img src="img/knowledge2.jpg" alt="">
+                       </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="projects">
+                <div class="time-line">
+                    <p class="date">10/21/2020</p>
+                </div>
+                <div class="project-container">
+                    <div class="project-description">
+                        <h1>knowledge Portal</h1>
+                        <p>knowledge portal is a platform where you get to read books and research papers online without 
+                            having to download anything</p>
+                    </div>
+                    <div class="project-link">
+                        <a href="https://www.w3schools.com">
+                       <img src="img/knowledge.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
