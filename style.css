@@ -107,7 +107,8 @@ display: none;
 /* background-color: blueviolet; */
 width: 160px;
 height: 100%;
-border-right: 1px solid #ddd;
+border-right: 2px solid /* rgb(206, 203, 203) */ #C0C0C0;
+margin-right: 2px;
 }
 
 .projects {
@@ -257,7 +258,7 @@ margin-bottom: 5px;
                 /* background-color: blueviolet; */
                 width: 160px;
                 height: 100%;
-                border-right: 0px solid #999;
+                border-right: 1px solid  rgb(206, 203, 203);
             }
 
             .date {
