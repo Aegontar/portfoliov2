@@ -64,7 +64,7 @@ margin:  0 0 0 30px;
 #content {
 margin-left: 25vw;
 width: 73vw;
-height: 2000px;
+height: 100vh;
 display: flex;
 flex-direction: column;
 /* z-index: -10; */
@@ -440,6 +440,70 @@ margin-left: 50px;
 #contact-platform {
 width: 70px;
 }
+}
+
+/* css for service page */
+
+#service-container{
+display: flex;
+margin: 0 auto;
+
+width: 100%;
+height: 100%;
+justify-content: space-between;
+
+}
+
+#service-container>div  {
+ 
+border: solid #c0c0c0 1px;
+height: 400px;
+width: 340px;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 
 
+#service-container>div img {
+    margin-top: 10px;
+ }
+
+ #service-container>div img:hover {
+   width: 50px;  
+ }
+
+ .service-name {
+    font: 18px/1.6 Roboto,Helvetica,sans-serif; 
+    font-weight: 900;
+    color: #555;
+ }
+
+ .service-description {
+    color: #555;
+    font: 14px/1.6 Roboto,Helvetica,sans-serif;
+    font-weight: 600;
+ }
+
+@media (max-width: 900px) { 
+
+    #service-container{
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    #service-container>div {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+}
+
+.fa-tools {
+
+    margin-top: 10px;
+    color:  #1e2ebb; 
 }
